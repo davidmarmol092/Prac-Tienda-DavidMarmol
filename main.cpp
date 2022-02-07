@@ -6,6 +6,8 @@
 #include <QInputDialog>
 #include <QDebug>
 
+
+//internacionalizacion del codigo detectando configuracion regional del idioma
 int main(int argc, char *argv[])
 {
     qDebug()<<QLocale::system().name();

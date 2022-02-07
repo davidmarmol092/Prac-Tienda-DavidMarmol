@@ -92,6 +92,7 @@ void Facturacion::insertarDatos(QString nombre, QString cedula, QString telef, Q
     mostrar();
 }
 
+//encabezado de la facturacion correspondiente
 void Facturacion::mostrar()
 {
     QString data="";
@@ -132,6 +133,7 @@ void Facturacion::mostrar()
     calcFinales();
 }
 
+//facturacion alojada en el directorio
 void Facturacion::vizualizar()
 {
     QFile archivo("C:/Users/marmo/Desktop/Minimarket/Facturas/"+m_fyh+".txt");
@@ -142,6 +144,7 @@ void Facturacion::vizualizar()
     archivo.close();
 }
 
+//codigo para que el archivo lo guarde el usuario, como la practica no requeria este codigo simplemente lo comente
 /**{
 
     QString nombreArchivo = QFileDialog::getSaveFileName(this,
@@ -156,6 +159,7 @@ void Facturacion::vizualizar()
     archivo.close();
 }**/
 
+//resultados de l facturacion con los datos del minimarket y la compra correspondiente
 void Facturacion::calcFinales()
 {
     QString Subtotales="";
