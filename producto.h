@@ -2,7 +2,7 @@
 #define PRODUCTO_H
 
 #include <QObject>
-
+//
 class Producto : public QObject
 {
     Q_OBJECT

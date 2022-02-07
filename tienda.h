@@ -24,7 +24,7 @@ public:
     Tienda(QWidget *parent = nullptr);
     ~Tienda();
 
-
+//slots de acciones
 private slots:
     void on_inNombre_currentIndexChanged(int index);
 

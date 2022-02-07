@@ -48,6 +48,7 @@ private slots:
 public slots:
     void on_buttonBox_accepted();
 
+    //declaro variables privadas a los datos de usuario
 private:
     Ui::Facturacion *ui;
     QString m_fyh;
